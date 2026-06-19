@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+      font-family: poppins, sans-serif;
+    
+}
+
+body{
+    background:#e7ecef;
+  
+}
+
+
+header{
+    background:#2f7990;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 60px;
+}
+
+.logo img{
+    height: 70px;
+    width: auto;
+    transform: scale(2.3);
+}
+
+.busca{
+    display:flex;
+}
+
+.busca input{
+    width: 500px;
+    padding:8px;
+    border:none;
+    border-radius:20px 0 0 20px;
+}
+
+.busca button{
+    padding:8px 12px;
+    border:none;
+    border-radius:0 20px 20px 0;
+    cursor:pointer;
+    background-color: #ffffff;
+}
+
+.busca img{
+    height: 12px;
+    width: auto;
+    transform: scale(1.5);
+}
+
+.icons{
+    display:flex;
+    align-items:center;
+    gap: 20px;
+}
+
+.icons img{
+    transform: scale(1.3);
+    width:20px;
+    height:20px;
+}
+
+.icons a{
+    color:white;
+    text-decoration:none;
+    transform: scale(0.3s);
+}
+
+
+.user{
+   position: relative;
+   left: 10px;
+   bottom: 3px;
+}
+
+nav{
+    background:#d6e8ed;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#000000;
+    margin:0 20px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #FFD036;}
+
+
+
+
+h1{
+    margin:40px;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.categorias{
+    display:flex;
+    gap:30px;
+    padding:0 40px 50px;
+}
+
+
+
+.filtros{
+    width:220px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    height:fit-content;
+}
+
+.filtros button{
+    margin-top:10px;
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    background:#ffc107;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.filtros button:hover{
+    background-color: #d99a00;
+}
+
+.filtros label{
+    display:block;
+    margin:8px 0;
+}
+
+.produtos{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width: 45%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h4{
+    margin:10px 0;
+}
+
+.card p{
+    color:#2f7990;
+    font-weight:bold;
+}
+
+.card button{
+    margin-top:10px;
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    background:#ffc107;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.card button:hover{
+    background-color: #d99a00;
+
+}
+
+.paginas button{
+    margin-top:10px;
+    padding:7px 12px;
+    border:none;
+    border-radius:20px;
+    background:#b5b5b5;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.paginas button:hover{
+    background-color: #787878;
+}
+
+.tiktok{
+    transform: scale(0.8);
+}
+footer{
+    background:#2f7990;
+    color:white;
+    text-align:center;
+    padding:50px;
+    position: relative;
+}
+.logorodape{
+   position:absolute;
+    bottom: 10px;
+    right: 1px;
+    width: 280px;
+ }
+

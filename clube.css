@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-color: #6BB9D0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 715px;
+}
+.cadastro{
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin: 5px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 0px 0px #1C4A57;
+}
+.botao{
+    padding: 5px;
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+    background-color: #367588;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+.botao:hover{
+    background-color: #FFD036;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    border: none
+}
+.pets{
+    display: flex;
+    flex-direction: column;
+}
+.adicional{
+    color: aliceblue;
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+.adicional2{
+    background-color: #4E99B0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 70px;
+
+}
+
+.blog img{
+    border-radius: 20px;
+
+}
+
+body{
+    background:#e7ecef;
+}
+
+
+
+
+header{
+    background:#2f7990;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 60px;
+}
+
+.logo img{
+    height: 70px;
+    width: auto;
+    transform: scale(2.3);
+}
+
+.busca{
+    display:flex;
+}
+
+.busca input{
+    width: 500px;
+    padding:8px;
+    border:none;
+    border-radius:20px 0 0 20px;
+}
+
+.busca button{
+    padding:8px 12px;
+    border:none;
+    border-radius:0 20px 20px 0;
+    cursor:pointer;
+    background-color: #ffffff;
+}
+
+.busca img{
+    height: 12px;
+    width: auto;
+    transform: scale(1.5);
+}
+
+.icons{
+    display:flex;
+    align-items:center;
+    gap: 20px;
+}
+
+.icons img{
+    transform: scale(1.3);
+    width:20px;
+    height:20px;
+}
+
+.icons a{
+    color:white;
+    text-decoration:none;
+    transform: scale(0.3s);
+}
+
+
+.user{
+   position: relative;
+   left: 10px;
+   bottom: 3px;
+}
+
+nav{
+    background:#d6e8ed;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#000000;
+    margin:0 20px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #FFD036;}
+
+
+
+
+
+
+    footer{
+    background:#2f7990;
+    color:white;
+    text-align:center;
+    padding: 40px;
+    position: relative;
+    margin-top: 100px;
+}
+.logorodape{
+   position:absolute;
+    bottom: 10px;
+    right: 1px;
+    width: 280px;
+ }
+
+.apps{
+    width: 30px;
+ }
