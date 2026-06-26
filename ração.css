@@ -154,7 +154,12 @@ h4{
     text-align:center;
     transition:.3s;
 }
-
+.botoes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
 .card:hover{
     transform:translateY(-5px);
 }
@@ -183,7 +188,25 @@ h4{
     cursor:pointer;
     transition: 0.3s;
 }
+.compra{
+    display: flex;
+        margin-top:12px;
+    padding:7px;
+    border:none;
+    border-radius:20px;
+    background:#ffc107;
+    cursor:pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    justify-content: center;
+    width: 90px;
 
+}
+.compra:hover{
+     background-color: #d99a00;
+}
 .card button:hover{
     background-color: #d99a00;
 
